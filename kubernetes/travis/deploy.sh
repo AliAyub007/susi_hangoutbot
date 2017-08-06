@@ -2,7 +2,7 @@ export DEPLOY_BRANCH=${DEPLOY_BRANCH:-master}
 
 export REPOSITORY="https://github.com/${TRAVIS_REPO_SLUG}.git"
 
-if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_REPO_SLUG" != "fossasia/susi_hangoutbot" -o  "$TRAVIS_BRANCH" != "$DEPLOY_BRANCH" ]; then
+if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_REPO_SLUG" != "AliAyub007/susi_hangoutbot" -o  "$TRAVIS_BRANCH" != "$DEPLOY_BRANCH" ]; then
     echo "Skip production deployment for a very good reason."
     exit 0
 fi
