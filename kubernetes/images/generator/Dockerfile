@@ -6,7 +6,7 @@ ARG REPOSITORY
 
 ENV COMMIT_HASH ${COMMIT_HASH:-null}
 ENV BRANCH ${BRANCH:-master}
-ENV REPOSITORY ${REPOSITORY:-https://github.com/AliAyub007/susi_hangoutbot.git}
+ENV REPOSITORY ${REPOSITORY:-https://github.com/fossasia/susi_hangoutbot.git}
 ENV INSTALL_PATH /hangout
 
 RUN mkdir -p $INSTALL_PATH
