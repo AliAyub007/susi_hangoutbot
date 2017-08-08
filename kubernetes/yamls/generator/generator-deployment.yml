@@ -13,9 +13,6 @@ spec:
       containers:
       - name: susi-hangoutbot
         image: aliayubkhan/susi_hangoutbot:latest
-        env: 
-        - name: password
-          value: "susiaiadmin"
         ports:
         - containerPort: 8080
           protocol: TCP
