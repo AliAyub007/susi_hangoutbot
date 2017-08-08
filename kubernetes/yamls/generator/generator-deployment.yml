@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: susi-hangoutbot
-        image: fossasia/susi_hangoutbot:latest-master
+        image: aliayubkhan/susi_hangoutbot:latest
         env: 
         - name: password
           value: "susiaiadmin"
