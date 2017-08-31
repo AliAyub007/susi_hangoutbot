@@ -1,5 +1,5 @@
 var hangoutsBot = require("hangouts-bot");
-var bot = new hangoutsBot("susiaifossasia@gmail.com", process.env.password || "susiaiadmin");
+var bot = new hangoutsBot("susiaifossasia@gmail.com", process.env.password);
 var request = require('request');
 var express = require('express');
 
